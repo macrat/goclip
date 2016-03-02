@@ -7,7 +7,7 @@ If you use linux, please use xclip command. This command do work like a subset o
 install
 -------
 ``` shell
-	$ go get http://bitbucket.org/macrat/goclip
+	$ go get bitbucket.org/macrat/goclip
 ```
 
 I recommend setting alias as xclip.
