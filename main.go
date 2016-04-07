@@ -38,7 +38,7 @@ func help() {
 	fmt.Println("\ncross platform clipboard command like the xclip.")
 	fmt.Println("")
 	fmt.Printf("usage: %s [-i | -o | -h]\n", os.Args[0])
-	fmt.Println("  -i  write stdin to clipboard")
+	fmt.Println("  -i  write stdin to clipboard. this is default.")
 	fmt.Println("  -o  read from clipboard.")
 	fmt.Println("  -h  show this message and exit.")
 }
@@ -46,7 +46,7 @@ func help() {
 func main() {
 	switch len(os.Args) {
 	case 1:
-		out()
+		in()
 	case 2:
 		switch os.Args[1] {
 		case "-i":
