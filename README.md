@@ -1,8 +1,9 @@
 goclip
 ======
 
-Simple and cross platform clipboard operation like the xclip command for OS except linux.
-If you use linux, please use xclip command. This command do work like a subset of xclip.
+Simple cross platform clipboard operation tool like the xclip command.
+
+__NOTE__: If you use linux, please use xclip command. This command do work like a subset of xclip.
 
 install
 -------
