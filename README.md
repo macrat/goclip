@@ -19,7 +19,3 @@ Please see help.
 ``` shell
 	$ goclip -h
 ```
-
-author / license
-----------------
-[MIT License](https://opensource.org/licenses/MIT) (c)2016 [MacRat](http://blanktar.jp/)
